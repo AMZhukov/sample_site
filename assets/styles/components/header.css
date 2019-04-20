@@ -1,0 +1,113 @@
+.header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0px auto;
+    position: absolute;
+
+    z-index: 2;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header__container {
+    height: 100%;
+    display: flex;
+    width: 100%;
+    max-width: 1400px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.header__logo {
+    display: flex;
+    align-items: flex-end;
+}
+
+.header__logo-emblem {
+
+}
+
+.header__nav {
+    max-width: 850px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.header__nav-top-panel {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 544px;
+    width: 100%;
+    align-items: center;
+    text-align: left;
+    font-weight: 500;
+    min-height: 82px;
+    padding: 31px 0px;
+    border-bottom: #F6A254 1px solid;
+    font-size: 0px;
+}
+
+.header__nav-submit-you-app {
+    display: flex;
+    color: #F6A254;
+
+}
+
+.header__nav-sumbit-you-app-icon{
+    margin-right: 20px;
+}
+
+.header__nav-sumbit-you-app-text {
+    font-size: 14px;
+}
+
+.header__nav-phone {
+    display: flex;
+}
+
+.header__nav-phone-number {
+    color: white;
+    font-size: 14px;
+}
+
+.header__nav-phone-request-a-call {
+    margin-left: 20px;
+    min-width: 121px;
+    font-size: 14px;
+    color: #F6A254;
+    text-decoration: none;
+}
+
+.header__nav-bottom-panel {
+    width: 100%;
+    line-height: 25px;
+    padding-top: 39px;
+}
+
+.header__nav-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__nav-list-icon {
+
+}
+
+.header__nav-list-element {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    background: indianred; /* Цвет фона под ссылкой */
+    color: #FFFFFF; /* Цвет ссылки */
+    fill: #FFFFFF;
+}
